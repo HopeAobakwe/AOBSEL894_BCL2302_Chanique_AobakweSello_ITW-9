@@ -22,12 +22,13 @@ body{
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 35px rgba(0.1);
 }
+
 a{
-    color: rgb(51, 7, 92);
+    color: blue;
 }
 .container .sideA{
     position: relative;
-    background-color: rgb(190, 186, 186);
+    background-color: rgb(0,0,0,0.1);
     padding:40px;
     border-style: double;
 
@@ -69,15 +70,28 @@ a{
     font-weight: 300;
 }
 .footer{
+    position: relative;
+    margin-top: 80px;
     padding:40px;
 }
 
 .title{
-    color:white;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+    border-style:ridge;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: white;  
+    text-align: center;
+    background-color: rgb(23, 23, 96);
+    color:aliceblue;
+    padding: 12px;
+    margin: 20px;
+}
+.form{
+    padding:5px;
+}
+.form h4{
+    color:#fff;
 }
 .footer ul{
     position:relative;
@@ -101,6 +115,84 @@ a{
 .container .sideB{
     position: relative;
     background: white;
-    padding:80px;
+    padding:40px;
     border-style: double;
 }
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    border-style:ridge;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: white;  
+    text-align: center;
+    background-color: rgb(23, 23, 96);
+    color:aliceblue;
+    padding: 12px;
+    margin: 20px;
+}
+.about .box{
+    display:flex;
+    flex-direction: row;
+    margin:20px 0;
+}
+.about .box .year_company{
+    min-width:150px;
+}
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color:#848c98;
+    font-weight: 600;
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    color:#2a7de2;
+    font-size: 16px;
+}
+.skills .box{
+    position:relative;
+    width:100%;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-content: center;
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color:#848c99;
+    font-weight: 500;
+}
+.skills .box .percent{
+    position: relative;
+    width:100%;
+    height:10px;
+    color:#f0f0f0;
+}
+.skills .box .percent div{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background: #03a9f4;
+}
+.interests ul{
+display: grid;
+grid-template-columns: 4,1fr;
+}
+.interests ul li{
+    list-style: none;
+    color:#333;
+    font-weight: 500;
+    margin:10px 0;
+}
+.interets ul li .fa{
+    color:#03a9f4;
+    font-size: 18px;
+    width:20px;
+}
+
