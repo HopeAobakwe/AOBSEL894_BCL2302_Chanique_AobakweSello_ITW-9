@@ -162,7 +162,7 @@ a{
     justify-content: center;
     align-content: center;
 }
-.skills .box h4{
+.skills .box h4 {
     text-transform: uppercase;
     color:#848c99;
     font-weight: 500;
@@ -195,7 +195,6 @@ grid-template-columns: 4,1fr;
     font-size: 18px;
     width:20px;
 }
-
 @media only screen and (max-width:1000px){
     .container{
         margin:10px;
